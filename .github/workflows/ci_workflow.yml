@@ -9,7 +9,7 @@ jobs:
     uses: basel5001/githubinfra/.github/workflows/linting.yml@main
     with:
       linter: ruff
-      extra-args: "check --max-line-length=100"
+      extra-args: "check --line-length=100"
 
   test:
     runs-on: ubuntu-latest
